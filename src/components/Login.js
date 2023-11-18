@@ -14,7 +14,7 @@ const Login = () => {
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/signin", {
+    const res = await fetch("https://sentimentsync.onrender.com/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

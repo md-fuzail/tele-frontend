@@ -8,7 +8,7 @@ const About = () => {
   const [userData, setUserData] = useState([]);
   const callAboutPage = async() => {
     try {
-      const res = await fetch('http://localhost:5000/analysis', {
+      const res = await fetch('https://sentimentsync.onrender.com/analysis', {
         method : 'GET',
         headers : {
           Accept : 'application/json',

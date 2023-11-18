@@ -6,7 +6,7 @@ const Logout = () => {
   const navigate = useNavigate();
   const { dispatch } = useContext(UserContext);
   useEffect(() => {
-    fetch("http://localhost:5000/logout", {
+    fetch("https://sentimentsync.onrender.com/logout", {
       method: "GET",
       headers: {
         Accept: "application/json",

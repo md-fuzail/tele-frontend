@@ -24,7 +24,7 @@ const Signup = () => {
     e.preventDefault();
     const {name, email, phone, facebook, instagram, twitter, linkedin, password, cpassword} = user;
 
-    const res = await fetch('http://localhost:5000/register', {
+    const res = await fetch('https://sentimentsync.onrender.com/register', {
       method : 'POST',
       headers: {
         'Content-Type': 'application/json'
